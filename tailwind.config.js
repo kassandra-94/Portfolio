@@ -7,6 +7,9 @@ module.exports = {
     extend:{
       fontFamily :{
         sans:['Rosario'],
+      },
+      backgroundImage: {
+         'hero-pattern': "url('./images/hero-pattern.svg')",
       }
     },
     colors:{
