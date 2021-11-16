@@ -10,33 +10,36 @@
 </head>
 <body >
     <!--main page-->
-    <div class="h-screen bg-green-light p-3 m-0 text-center text-green-dark font-sans">
+    <div class="h-screen bg-green-light text-center m-0 text-green-dark font-sans sm:bg-green-default md:bg-red-400 xl:bg-yellow-200  ">
         <!--header-->
-        <div class="p-6 flex flex-col">
-            <div class="text-center my-3">
-             <p class="text-4xl">WELCOME TO<br> </p> 
-             <h1 class="font-bold text-5xl">MY PORTFOLIO</h1>            
+        <div class="p-6 flex flex-col justify-center ">
+            <div class="my-3">
+             <p class="text-3xl font-extralight">WELCOME TO<br> </p> 
+             <h1 class="font-bold text-4xl">MY PORTFOLIO</h1>            
             </div>
-            <div class="flex flex-wrap justify-center">
-                <div class="w-6/12 sm:w-4/12 px-4">
-                  <img src="/images/picture.jpg" alt="picture of myself" class="my-2 border-2 border-green-dark shadow rounded-full max-w-full h-auto align-middle " />
+            <div class="lg:grid lg:gap-x-11 lg:grid-cols-2">
+                <div class="flex flex-wrap justify-center">
+                <div class=" flex px-3 w-7/12 lg:w-4/6 ">
+                  <img src="/images/picture.jpg" alt="picture of myself" class="my-2 border-2 shadow-2xl border-green-dark rounded-full" />
                 </div>
-             </div>
-             <div class="flex flex-row justify-center pb-6">
+            </div>
+             <div class="flex flex-row pb-6 justify-center lg:order-last">
                 <a href="https://github.com/kassandra-94" class="mr-2"><ion-icon name="logo-github"></ion-icon></a>
                 <a href="#" class="mr-2"><ion-icon name="mail"></ion-icon></a> 
                <a href="#" class="mr-2"><ion-icon name="logo-instagram"></ion-icon></a> 
-                </div>
+            </div>
           <!--nav beginning-->
-            <ul id="nav" class="flex flex-col justify-center flex-1 ">
-                <li class="m-4 border-b-2 border-teal-800 text-4xl rounded-lg hover:text-gray-400 hover:bg-red-200 "><a href="projects.html">PROJECTS</a></li>
-                <li class="m-4 border-b-2 border-teal-800 text-4xl rounded-lg hover:text-gray-400 hover:bg-red-200"><a href="contact.html">CONTACT</a></li>
-                <li class="m-4 border-b-2 border-teal-800 text-4xl rounded-lg hover:text-gray-400 hover:bg-red-200" ><a href="about.html">ABOUT</a></li>
+        <div class="flex justify-center lg:justify-start">
+            <ul class="flex-col tracking-wide font-light lg:pt-20">
+                <li class="px-3 m-4 border-b-2 border-teal-800 text-3xl rounded-lg hover:text-gray-400 hover:bg-red-200 "><a href="projects.html">PROJECTS</a></li>
+                <li class="px-3 m-4 border-b-2 border-teal-800 text-3xl rounded-lg hover:text-gray-400 hover:bg-red-200"><a href="contact.html">CONTACT</a></li>
+                <li class="px-3 m-4 border-b-2 border-teal-800 text-3xl rounded-lg hover:text-gray-400 hover:bg-red-200" ><a href="about.html">ABOUT</a></li>
             </ul>   
-           
+        </div>
            <!--nav ending-->
          <!--header-->
-         </div>
+      </div>
+        </div>
     </div>
 </body>
 </html>
