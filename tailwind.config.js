@@ -1,17 +1,10 @@
 const colors = require('tailwindcss/colors')
+
 module.exports = {
   extends: [],
   purge:  [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend:{
-      fontFamily :{
-        sans:['Rosario'],
-      },
-      backgroundImage: {
-         'hero-pattern': "url('./images/hero-pattern.svg')",
-      }
-    },
     colors:{
       green:{
         light: "#d7fdce",
@@ -24,8 +17,16 @@ module.exports = {
       yellow: colors.amber,
       lime: colors.lime,
       teal: colors.teal,
+      pink: colors.pink,
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-pattern':"url('/images/hero-pattern.svg')",
+       },
+       fontFamily :{
+        od :['Rosario'],
+      },
+    },
   },
   variants: {
     extend: {},

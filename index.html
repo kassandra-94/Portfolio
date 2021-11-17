@@ -10,12 +10,12 @@
 </head>
 <body >
     <!--main page-->
-    <div class="h-screen bg-green-light text-center m-0 text-green-dark font-sans sm:bg-green-default md:bg-red-400 xl:bg-yellow-200 lg:bg-hero-pattern ">
+    <div class="h-screen bg-green-light text-center m-0 font-od text-green-dark lg:bg-red-300 2xl:bg-yellow-200 bg-hero-pattern ">
         <!--header-->
-        <div class="p-6 flex flex-col justify-center ">
+        <div class="p-6 flex flex-col justify-center  ">
             <div class="my-3">
              <p class="text-3xl font-extralight">WELCOME TO<br> </p> 
-             <h1 class="font-bold text-4xl">MY PORTFOLIO</h1>            
+             <h1 class="font-bold font-od text-4xl">MY PORTFOLIO</h1>            
             </div>
             <div class="lg:grid lg:gap-x-11 lg:grid-cols-2">
                 <div class="flex flex-wrap justify-center lg:justify-end">
@@ -23,23 +23,31 @@
                   <img src="/images/picture.jpg" alt="picture of myself" class="my-2 border-2 shadow-2xl border-green-dark rounded-full" />
                 </div>
             </div>
-             <div class="flex flex-row py-6 justify-center lg:order-last lg:justify-end">
+             <div class="flex flex-row py-3 justify-center  lg:hidden">
                 <a href="https://github.com/kassandra-94" class="mr-2"><ion-icon name="logo-github"></ion-icon></a>
                 <a href="#" class="mr-2"><ion-icon name="mail"></ion-icon></a> 
                <a href="#" class="mr-2"><ion-icon name="logo-instagram"></ion-icon></a> 
             </div>
           <!--nav beginning-->
-        <div class="flex justify-center lg:justify-start">
+        <div class="flex justify-center lg:justify-start ">
             <ul class="flex-col tracking-wide font-light lg:self-center">
-                <li class="px-3 m-4 border-b-2 border-teal-800 text-3xl rounded-lg hover:text-green-light hover:bg-teal-400 "><a href="projects.html">PROJECTS</a></li>
+                <li class="px-3 m-4 border-b-2 border-teal-800 text-3xl rounded-lg hover:text-green-light hover:bg-teal-400"><a href="projects.html">PROJECTS</a></li>
                 <li class="px-3 m-4 border-b-2 border-teal-800 text-3xl rounded-lg hover:text-green-light hover:bg-teal-400"><a href="contact.html">CONTACT</a></li>
                 <li class="px-3 m-4 border-b-2 border-teal-800 text-3xl rounded-lg hover:text-green-light hover:bg-teal-400" ><a href="about.html">ABOUT</a></li>
             </ul>   
+            <div class="hidden lg:flex lg:flex-col">
+                <div >
+                  <img src="/images/github-icon.svg" alt="github-icon">
+                </div>     
+                <div>
+                   <img src="/images/mail-icon.svg" alt="email-icon">
+                </div> 
+               </div>
+            </div>
         </div>
            <!--nav ending-->
          <!--header-->
       </div>
-        </div>
     </div>
 </body>
 </html>
