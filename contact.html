@@ -19,25 +19,25 @@
           <li class="m-2 border-b-2 border-teal-800 text-xl rounded-lg hover:text-green-light hover:bg-teal-400" ><a href="about.html">ABOUT</a></li>
        </ul>   
              <!--nav ending-->
-          <h1 class="uppercase text-4xl m-8">contact</h1>
+          <h1 class="uppercase text-4xl m-4 lg:m-8">contact</h1>
                  <!--header ending-->
             <!--contact-->
             <form action="https://formsubmit.co/4c4d2536f886826ea37e70a511e195f8" method="POST">
-                 <div class="flex flex-col place-content-center m-8">
-                    <div class="m-4">
+                 <div class="grid grid-col-1 lg:grid-cols-2 lg:grid-rows-3">
+                    <div class=" grid grid-rows-2 lg:grid-rows-1">
                       <label for="full-name">Enter your name: </label>
-                      <input id="full-name" name="full-name" type="text">
+                      <input id="full-name" name="full-name" type="text" maxlength="10" class="w-4/6 mx-auto " >
                    </div>
                       <div class="m-4">
                           <label for="email">Enter your email:</label>
-                          <input  id="email" name="email" type="email" placeholder="troyMclure@gmail.com" class="border-2 border-solid border-gray-800 focus:invalid" />
+                          <input  id="email" name="email" type="email" placeholder="troyMclure@gmail.com" class="border-2 border-solid border-gray-800 " />
                      </div>
                          <div class="m-4">
                          <label for="abstract ">Feel free to share your opinion:</label>
                          <textarea name="abstract" id="abstract" cols="20" rows="7" placeholder="Every feedback is welcomed.." class="border-2 border-solid border-gray-800"></textarea>
                        </div>
-                           <div class="m-4 bg-green-light">
-                                <input type="submit" value="submit">
+                           <div class="m-4 ">
+                                <input type="submit" value="submit" class="bg-pink-300 px-4 p-2 text-gray-800 rounded-full" >
                             </div>
                       <p>Other paths to reach me out 
                           <a href="https://github.com/kassandra-94"><ion-icon name="logo-github"></ion-icon></a>
