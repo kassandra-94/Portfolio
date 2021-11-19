@@ -10,7 +10,7 @@
 </head>
 <body>
         <!--main page-->
-      <div class="h-screen bg-green-light py-3 m-0 text-center text-green-dark bg-hero-pattern overflow-y-hidden">
+      <div class="h-screen bg-green-light py-3 m-0 text-center text-green-dark bg-hero-pattern overflow-y-scroll">
         <!--header-->
        <!--nav begining-->
         <ul id="nav" class="flex flex-row justify-center flex-1 m-8">
@@ -26,19 +26,19 @@
                  <div class="grid grid-col-1 lg:grid-cols-2 lg:grid-rows-3 gap-y-3 gap-x-3">
                     <div class=" flex justify-center items-center lg:justify-end">
                       <label for="full-name" class=" p-4">Enter your name: </label>
-                      <input id="full-name" name="full-name" type="text" class="max-w-3/6 h-7 border-2 border-solid border-gray-800" >
+                      <input id="full-name" name="full-name" type="text" class="max-w-3/6 h-7 border-2 border-solid border-green-dark" >
                    </div>
                       <div class=" flex justify-center items-center lg:justify-start">
                           <label for="email" class=" p-4">Enter your email:</label>
-                          <input  id="email" name="email" type="email" placeholder="troyMclure@gmail.com" class="max-w-3/6 border-2 border-solid border-gray-800 " />
+                          <input  id="email" name="email" type="email" placeholder="youremail@mail.com" class="max-w-3/6 border-2 border-solid border-green-dark " />
                      </div>
                          <div class=" lg:col-span-2">
                            <p class="pb-4">For further requests, fill out the box!</p>
                          <label for="abstract"></label>
-                         <textarea name="abstract" id="abstract" cols="30" rows="7" placeholder="Requests, questions, feedbacks.." class="lg:w-3/6 border-2 border-solid border-gray-800"></textarea>
+                         <textarea name="abstract" id="abstract"  placeholder="Requests, questions, feedbacks.." class="resize w-5/6 lg:w-3/6 h-36 border-2 border-solid border-green-dark"></textarea>
                          </div>
-                           <div class="justify-center lg:col-span-2 py-4">
-                                 <input type="submit" value="submit" class="bg-pink-300 px-4 p-2 text-gray-800  hover:text-green-light rounded-md" >
+                           <div class="justify-center lg:col-span-2 py-4 lg:py-6">
+                                 <input type="submit" value="submit" class="bg-pink-300 px-4 lg:px-14 p-2 text-gray-800   rounded-md transition duration-700 ease-in-out hover:text-green-light transform hover:-translate-1 lg:hover:-translate-4 hover:scale-110 " >
                              </div>
                           <input type="hidden" name="_autoresponse" value="Thank you! Your request is correctly sent!">
                           <input type="hidden" name="_next" value="https://saracinesca.studio/thanks.html">
