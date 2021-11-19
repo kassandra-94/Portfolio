@@ -13,7 +13,9 @@
     "autoprefixer": "^10.4.0",
     "postcss": "^8.3.11",
     "stylelint-config-recommended": "^6.0.0",
-    "tailwindcss": "^2.2.19",
-    "vite": "^2.6.13"
+    "tailwindcss": "^2.2.19"
+  },
+  "dependencies": {
+    "vite": "^2.6.14"
   }
 }
