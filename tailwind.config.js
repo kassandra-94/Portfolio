@@ -12,8 +12,6 @@ module.exports = {
         dark: "#166603",
       },
       gray: colors.trueGray,
-      red: colors.red,
-      blue: colors.sky,
       yellow: colors.amber,
       lime: colors.lime,
       teal: colors.teal,
@@ -24,12 +22,14 @@ module.exports = {
         'hero-pattern':"url('/images/hero-pattern.svg')",
        },
        fontFamily :{
-        od :['Rosario'],
+        serif :['Rosario'],
       },
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      backgroundColor: ['active'],
+    },
   },
   plugins: [],
 }
