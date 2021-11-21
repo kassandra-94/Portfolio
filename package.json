@@ -10,12 +10,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^10.4.0",
     "postcss": "^8.3.11",
-    "stylelint-config-recommended": "^6.0.0",
-    "tailwindcss": "^2.2.19"
+    "stylelint-config-recommended": "^6.0.0"
   },
   "dependencies": {
-    "postcss-cli": "^9.0.2"
+    "autoprefixer": "^10.4.0",
+    "postcss-cli": "^9.0.2",
+    "tailwindcss": "^2.2.19"
   }
 }
