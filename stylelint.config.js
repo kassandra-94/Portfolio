@@ -8,7 +8,8 @@ module.exports = {
           'variants',
           'responsive',
           'screen',
-          'layer'
+          'layer',
+          'tailwind.css'
         ]
       }],
       'declaration-block-trailing-semicolon': null,
