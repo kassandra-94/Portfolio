@@ -7,9 +7,9 @@
     font-family: 'Rosario';
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/sans/rosario-v22-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('./fonts/sans/rosario-v22-latin-regular.eot'); /* IE9 Compat Modes */
     src: local('Rosario'),
-         url('../fonts/sans/rosario-v22-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/sans/rosario-v22-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/sans/rosario-v22-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/sans/rosario-v22-latin-regular.woff') format('woff'), /* Modern Browsers */
   }
 }
