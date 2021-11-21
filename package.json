@@ -14,5 +14,8 @@
     "postcss": "^8.3.11",
     "stylelint-config-recommended": "^6.0.0",
     "tailwindcss": "^2.2.19"
+  },
+  "dependencies": {
+    "postcss-cli": "^9.0.2"
   }
 }
