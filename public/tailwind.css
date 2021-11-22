@@ -150210,8 +150210,6 @@ video {
   }
 
   .\32xl\:font-serif {
-    /* stylelint-disable-next-line 
-    /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
     font-family: Rosario;
   }
 

@@ -23,7 +23,7 @@ module.exports = {
        },
        fontFamily :{
         'sansa' :['Rosario'],
-        'serifa': ['Unna'], 
+        'serifa': ['Unna']
       },
     },
   },
