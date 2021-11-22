@@ -22,7 +22,8 @@ module.exports = {
         'hero-pattern':"url('/images/hero-pattern.svg')",
        },
        fontFamily :{
-        serif :['Rosario'],
+        'sansa' :['Rosario'],
+        'serifa': ['Unna'], 
       },
     },
   },
