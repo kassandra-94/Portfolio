@@ -4,7 +4,7 @@ module.exports = {
   extends: [],
   purge: { 
     enabled: true,
-    content:[ './src/**/*.html'],
+    content:[ './public/**/*.html'],
 },
   darkMode: false, // or 'media' or 'class'
   theme: {
