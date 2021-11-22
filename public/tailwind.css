@@ -1,6 +1,3 @@
-/* stylelint-disable CssSyntaxError */
-/* stylelint-disable font-family-no-missing-generic-family-keyword */
-/* stylelint-disable no-duplicate-selectors */
 /*! tailwindcss v2.2.19 | MIT License | https://tailwindcss.com */
 
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
@@ -587,9 +584,29 @@ video {
 
   src: url('../fonts/sans/rosario-v22-latin-regular.eot'); /* IE9 Compat Modes */
 
-  src: local('Rosario'),
-         url('../fonts/sans/rosario-v22-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/sans/rosario-v22-latin-regular.woff') format('woff'), /* Modern Browsers */
+  src: local(''),
+       url('../fonts/sans/rosario-v22-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/sans/rosario-v22-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/sans/rosario-v22-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/sans/rosario-v22-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/sans/rosario-v22-latin-regular.svg#Rosario') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Unna';
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  src: url('../fonts/serif/unna-v16-latin-regular.eot'); /* IE9 Compat Modes */
+
+  src: local(''),
+       url('../fonts/serif/unna-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/serif/unna-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/serif/unna-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/serif/unna-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/serif/unna-v16-latin-regular.svg#Unna') format('svg'); /* Legacy iOS */
 }
 
 .container {
@@ -19743,11 +19760,19 @@ video {
 }
 
 .font-serif {
-  font-family: Rosario;
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.font-sansa {
+  font-family: Rosario;
+}
+
+.font-serifa {
+  font-family: Unna;
 }
 
 .text-xs {
@@ -45846,11 +45871,19 @@ video {
   }
 
   .sm\:font-serif {
-    font-family: Rosario;
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   }
 
   .sm\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .sm\:font-sansa {
+    font-family: Rosario;
+  }
+
+  .sm\:font-serifa {
+    font-family: Unna;
   }
 
   .sm\:text-xs {
@@ -71937,11 +71970,19 @@ video {
   }
 
   .md\:font-serif {
-    font-family: Rosario;
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   }
 
   .md\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .md\:font-sansa {
+    font-family: Rosario;
+  }
+
+  .md\:font-serifa {
+    font-family: Unna;
   }
 
   .md\:text-xs {
@@ -98028,11 +98069,19 @@ video {
   }
 
   .lg\:font-serif {
-    font-family: Rosario;
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   }
 
   .lg\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .lg\:font-sansa {
+    font-family: Rosario;
+  }
+
+  .lg\:font-serifa {
+    font-family: Unna;
   }
 
   .lg\:text-xs {
@@ -124119,11 +124168,19 @@ video {
   }
 
   .xl\:font-serif {
-    font-family: Rosario;
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   }
 
   .xl\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .xl\:font-sansa {
+    font-family: Rosario;
+  }
+
+  .xl\:font-serifa {
+    font-family: Unna;
   }
 
   .xl\:text-xs {
@@ -150210,11 +150267,19 @@ video {
   }
 
   .\32xl\:font-serif {
-    font-family: Rosario;
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   }
 
   .\32xl\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .\32xl\:font-sansa {
+    font-family: Rosario;
+  }
+
+  .\32xl\:font-serifa {
+    font-family: Unna;
   }
 
   .\32xl\:text-xs {
