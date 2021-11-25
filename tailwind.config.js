@@ -22,7 +22,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'hero-pattern':"url('/images/hero-pattern.svg')",
+        'hero-pattern':"url('../images/hero-pattern.svg')",
        },
        fontFamily :{
         'sansa' :['Rosario'],
