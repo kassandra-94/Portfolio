@@ -5,8 +5,8 @@ module.exports = {
   purge: { 
     enabled: true,
     content:[ 
-      './docs/**/*.html',
-      './index.html'],
+      './docs/**/*.html'
+    ],
 },
   darkMode: false, // or 'media' or 'class'
   theme: {
