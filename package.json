@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@blakeembrey/deque": "^1.0.5",
     "postcss": "^8.3.11",
     "stylelint-config-recommended": "^6.0.0"
   },
