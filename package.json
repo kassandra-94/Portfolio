@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "postcss ./css/tailwind.css -o ./docs/tailwind.css",
+    "build": "tailwindcss build -i ./css/tailwind.css -o ./docs/tailwind.css",
     "watch": "onchange '.scripts/tailwind.config.js' './index.html' './docs/**/*.html' './css/**/*.css' --npm run build",
     "prod": "NODE_ENV=production postcss ./css/tailwind.css -o ./docs/tailwind.css"
   },
@@ -13,13 +13,11 @@
   "license": "ISC",
   "devDependencies": {
     "@blakeembrey/deque": "^1.0.5",
-    "postcss": "^8.3.11",
     "stylelint-config-recommended": "^6.0.0"
   },
   "dependencies": {
     "autoprefixer": "^10.4.0",
     "onchange": "^7.1.0",
-    "postcss-cli": "^9.0.2",
     "tailwindcss": "^2.2.19"
   }
 }
