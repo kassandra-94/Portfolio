@@ -25,7 +25,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'hero-pattern':"url('..assets/images/hero-pattern.svg')",
+        'hero-pattern':"url('../assets/images/hero-pattern.svg')",
        },
        fontFamily :{
         'sansa' :['Rosario', 'sans'],
