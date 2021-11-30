@@ -19,13 +19,13 @@
   font-family: 'Unna';
   font-style: normal;
   font-weight: 400;
-  src: url('../assets/fonts/serif/unna-v16-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('../assets/fonts/unna/unna-v16-latin-regular.eot'); /* IE9 Compat Modes */
   src: local(''),
-       url('../assets/fonts/serif/unna-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../assets/fonts/serif/unna-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../assets/fonts/serif/unna-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('../assets/fonts/serif/unna-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../assets/fonts/serif/unna-v16-latin-regular.svg#Unna') format('svg'); /* Legacy iOS */
+       url('../assets/fonts/unna/unna-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../assets/fonts/unna/unna-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../assets/fonts/unna/unna-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../assets/fonts/unna/unna-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../assets/fonts/unna/unna-v16-latin-regular.svg#Unna') format('svg'); /* Legacy iOS */
 }
 @font-face {
   font-family: 'Poppins';
