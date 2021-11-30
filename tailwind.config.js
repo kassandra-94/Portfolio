@@ -3,7 +3,7 @@ const colors = require('tailwindcss/colors')
 module.exports = {
   extends: [],
   purge: { 
-    enabled: true,
+    enabled: false,
     content:[ 
       './index.html',
       './docs/**/*.html'
@@ -28,8 +28,8 @@ module.exports = {
         'hero-pattern':"url('../assets/images/hero-pattern.svg')",
        },
        fontFamily :{
-        'sansa' :['Rosario', 'sans'],
-        'serifa': ['Unna', 'serif']
+        'sansa' :['Poppins', 'sans'],
+        'serifa': ['Unna', 'serif'],
       },
     },
   },
