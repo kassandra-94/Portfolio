@@ -35,6 +35,9 @@
 .bg-hero-pattern{
   background-image: url('../assets/images/hero-pattern.svg');
 }
+.bg-pink-300 {
+  background-color: rgba(249, 168, 212);
+}
 .font-sansa {
   font-family: Poppins, sans;
 }
@@ -50,10 +53,9 @@
 .border-teal-800 {
   border-color: rgba(17, 94, 89);
 }
-.bg-pink-300 {
-  background-color: rgba(249, 168, 212);
+.border-teal-500 {
+  border-color: rgba(20, 184, 166);
 }
-
 .hover\:bg-teal-400:hover {
   background-color: rgba(45, 212, 191);
 }
@@ -67,7 +69,4 @@
 }
 .hover\:text-green-light:hover {
   color: rgba(215, 253, 206);
-}
-.border-teal-500 {
-  border-color: rgba(20, 184, 166);
 }
