@@ -23,6 +23,12 @@
        url('../assets/fonts/poppins/poppins-v15-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
 }
 
+.font-sans {
+  font-family: Poppins, sans;
+}
+.font-serif {
+  font-family: Unna, serif;
+}
 .bg-green-light{
   background-color: rgba(215, 253, 206);
 }
@@ -37,12 +43,6 @@
 }
 .bg-pink-300 {
   background-color: rgba(249, 168, 212);
-}
-.font-sansa {
-  font-family: Poppins, sans;
-}
-.font-serifa {
-  font-family: Unna, serif;
 }
 .border-teal-700 {
  border-color: rgba(15, 118, 110);
