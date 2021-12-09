@@ -35,3 +35,9 @@
 .bg-hero-pattern{
   background-image: url('../assets/images/hero-pattern.svg');
 }
+.font-sansa {
+  font-family: Poppins, sans;
+}
+.font-serifa {
+  font-family: Unna, serif;
+}
