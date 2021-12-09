@@ -68,3 +68,6 @@
 .hover\:text-green-light:hover {
   color: rgba(215, 253, 206);
 }
+.border-teal-500 {
+  border-color: rgba(20, 184, 166);
+}
