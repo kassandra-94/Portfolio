@@ -70,3 +70,6 @@
 .hover\:text-green-light:hover {
   color: rgba(215, 253, 206);
 }
+.focus-within\:ring-green-default:focus-within {
+ ring-color: rgba(94, 249, 57);
+}
