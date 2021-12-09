@@ -22,9 +22,16 @@
        url('../assets/fonts/poppins/poppins-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../assets/fonts/poppins/poppins-v15-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
 }
-.bg-green-dark{
-  color: "#166603";
-}
+
 .bg-green-light{
-  color: "#d7fdce";
+  background-color: rgba(215, 253, 206);
+}
+.text-green-dark{
+  color: rgba(22, 102, 3);
+}
+.text-green-light{
+  color: rgba(215, 253, 206);
+}
+.bg-hero-pattern{
+  background-image: url('../assets/images/hero-pattern.svg');
 }
