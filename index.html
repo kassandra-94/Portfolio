@@ -21,26 +21,64 @@
     <!--main page-->
     <div class="h-screen bg-green-light text-center py-3 m-0 text-green-dark bg-hero-pattern overflow-y-scroll">
         <!--header-->
-        <div class=" flex flex-col justify-center lg:space-y-20">
-             <h1 class="py-10 inline-block font-semibold font-sans text-4xl lg:text-7xl ">my Portfolio</h1>            
-            <div class="lg:grid lg:grid-cols-2 ">
-                <div class="flex flex-wrap justify-center lg:justify-end">
-                <div class=" flex px-3 w-2/5 sm:w-1/3 2xl:2/5">
-                  <img src="../assets/images/picture.jpg" alt="picture of myself" class="pointer-events-none my-2 border-2 shadow-2xl border-green-dark rounded-full" />
+         <!--nav begining-->
+         <!--mobile version-->
+         <div class="visible relative md:hidden lg:hidden"> 
+            <ul class="fixed font-sans flex flex-row rounded-lg bg-green-light border-teal-500 m-8 px-5 capitalize">
+            <button onclick="hideAndShow()"> <img src="../assets/images/menu-icon.svg" alt="menu icon"  class="w-14 ">
+                <div id="menu_dropdown" class="hidden absolute inset-y inset-x ">
+                    <ul class="fixed text-left flex flex-col rounded-lg bg-green-light text-left">
+                   <li class=" py-2 px-20 text-lg rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500"><a href="../docs/projects.html">projects</a></li>
+                   <li class="p-2 text-lg rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500" ><a href="../docs/contact.html">contact</a></li>
+                   <li class="p-2 text-lg rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500" ><a href="../docs/about.html">about</a></li>
+                </ul>
+                </div>
+            </button>
+            <li class="font-semibold p-4 text-lg rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500 mr-auto"><a href="../index.html">sara camerota</a></li>
+            </ul >
+            </div>
+            <!--mobile version-->
+         <div class="invisible md:visible lg:visible "> 
+            <ul class=" font-sans flex flex-row rounded-lg bg-green-light border-teal-500 justify-evenly  m-8 capitalize">
+                <li class=" font-semibold p-2 lg:px-8 text-lg lg:text-xl rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500 mr-auto"><a href="../index.html">sara camerota</a></li>
+                <li class="p-2 lg:px-8 text-lg lg:text-xl rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500"><a href="/docs/projects.html">projects</a></li>
+                <li class="p-2 lg:px-8 text-lg lg:text-xl rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500" ><a href="/docs/contact.html">contact</a></li>
+                <li class="p-2 lg:px-8 text-lg lg:text-xl rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500" ><a href="/docs/about.html">about</a></li>
+           </ul>   
+         </div>
+         
+    <!--nav ending-->
+    <div class=" p-20 flex flex-col justify-center lg:grid lg:grid-cols-2 lg:space-y-20">
+        <div>
+            <span role="img" aria-label="hello" class="text-4xl lg:text-7xl block mb-4">👋</span>
+            <p class="whitespace-pre-wrap font-sans  text-2xl lg:text-4xl "> 
+                I am Sara, a developer-to-be based in Rome.
+                I enjoy learning the "magic" world of code.
+                My goal is contributing through my work to increase gender equality, 
+                and be helpful to the climate cause.
+            </p>
+                </div>
+                <div>
+                    <span role="img" aria-label=" photo of the author" style="background-image: url(../assets/images/picture.jpg)" class="w-80 h-80 border-2 shadow-2xl border-green-dark rounded-full bg-cover bg-no-repeat text-4xl block mb-4"></span>
                 </div>
             </div>
-          <!--nav beginning-->
-        <div class="flex justify-center pt-10 lg:pt-0 lg:justify-start">
-            <ul class="flex-col tracking-tighter font-sans lg:self-center space-y-4">
-                <li class="px-3 ml-4 border-b-2 border-teal-700 text-3xl rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500"><a href="/docs/projects.html">PROJECTS</a></li>
-                <li class="px-3 ml-4 border-b-2 border-teal-800 text-3xl rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500"><a href="/docs/contact.html">CONTACT</a></li>
-                <li class="px-3 ml-4 border-b-2 border-teal-800 text-3xl rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500" ><a href="/docs/about.html">ABOUT</a></li>
-            </ul>   
-            </div>
-        </div>
-           <!--nav ending-->
+            
          <!--header-->
-      </div>
+      
+      <!--footer -->
+     <div class="flex flex-row justify-around">
+        <a href="https://github.com/kassandra-94" target="_blank">
+        <img src="../assets/images/github-icon.svg" alt="svg of github icon"  class="w-14 ">
+        </a>
+        <a href="../docs/contact.html" target="_blank" > 
+        <img src="../assets/images/email.png" alt="png of email icon"  class="w-12">
+        </a>
+        <a href="" target="_blank">
+        <img src="../assets/images/instagram.svg" alt="svg of instagram icon"  class="w-14">
+        </a>
     </div>
+      <!--end of footer -->
+    </div>
+    <script src="menu.js"></script>
 </body>
 </html>

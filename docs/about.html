@@ -20,15 +20,40 @@
      <!--main page-->
  <div class="h-screen bg-green-light py-3 m-0 flex flex-col text-center text-green-dark bg-hero-pattern overflow-y-scroll">
         <!--header-->
-            <!--nav begining-->
-                <ul class="font-sans flex flex-row border-2 rounded-lg bg-green-light border-teal-500 justify-evenly sm:px-5 m-8">
-                     <li class="p-2 lg:px-8 text-lg lg:text-xl rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500"><a href="../index.html">HOME</a></li>
-                     <li class="p-2 lg:px-8 text-lg lg:text-xl rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500"><a href="projects.html">PROJECTS</a></li>
-                     <li class="p-2 lg:px-8 text-lg lg:text-xl rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500" ><a href="contact.html">CONTACT</a></li>
-                </ul>   
-             <!--nav ending-->
+          <!--nav begining-->
+         <!--mobile version-->
+         <div class="visible relative md:hidden lg:hidden"> 
+            <ul class="fixed font-sans flex flex-row rounded-lg bg-green-light border-teal-500 m-8 px-5 capitalize">
+            <button onclick="hideAndShow()"> <img src="../assets/images/menu-icon.svg" alt="menu icon"  class="w-14 ">
+                <div id="menu_dropdown" class="hidden absolute inset-y inset-x ">
+                    <ul class="fixed text-left flex flex-col rounded-lg bg-green-light text-left">
+                   <li class=" py-2 px-20 text-lg rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500"><a href="../docs/projects.html">projects</a></li>
+                   <li class="p-2 text-lg rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500" ><a href="../docs/contact.html">contact</a></li>
+                   <li class="p-2 text-lg rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500" ><a href="../docs/about.html">about</a></li>
+                </ul>
+                </div>
+            </button>
+            <li class="font-semibold p-4 text-lg rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500 mr-auto"><a href="../index.html">sara camerota</a></li>
+            </ul >
+            </div>
+            <!--mobile version-->
+         <div class="invisible md:visible lg:visible "> 
+            <ul class=" font-sans flex flex-row rounded-lg bg-green-light border-teal-500 justify-evenly  m-8 capitalize">
+                <li class=" font-semibold p-2 lg:px-8 text-lg lg:text-xl rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500 mr-auto"><a href="../index.html">sara camerota</a></li>
+                <li class="p-2 lg:px-8 text-lg lg:text-xl rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500"><a href="/docs/projects.html">projects</a></li>
+                <li class="p-2 lg:px-8 text-lg lg:text-xl rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500" ><a href="/docs/contact.html">contact</a></li>
+                <li class="p-2 lg:px-8 text-lg lg:text-xl rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500" ><a href="/docs/about.html">about</a></li>
+           </ul>   
+         </div>
+         
+    <!--nav ending-->
                 <h1 class="uppercase text-4xl font-serif">about</h1>
       <!--about section -->
+      <div class="flex flex-wrap justify-center lg:justify-end">
+        <div class=" flex px-3 w-2/5 sm:w-1/3 2xl:2/5">
+          <img src="../assets/images/picture.jpg" alt="picture of myself" class="pointer-events-none my-2 border-2 shadow-2xl border-green-dark rounded-full" />
+        </div>
+    </div>
       <div class="  flex flex-inline flex-col mx-auto text-sm text-left lg:text-lg px-10 md:px-28"> 
             <p class="whitespace-pre-wrap lg:whitespace-pre font-sans">
  Hello, Sara here. 
