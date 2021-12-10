@@ -16,6 +16,7 @@
     <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
     <link href="../css/styles.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body >
     <!--main page-->
@@ -23,9 +24,11 @@
         <!--header-->
          <!--nav begining-->
          <!--mobile version-->
-         <div class="visible relative md:hidden lg:hidden"> 
+         <button class="btn"><i class="fa fa-home"></i></button>
+
+         <div class="visible relative md:hidden lg:hidden w-full"> 
             <div class="fixed font-sans flex flex-row rounded-lg bg-green-light border-teal-500 m-8 px-3 shadow-md">
-            <button onclick="hideAndShow()"> <img src="../assets/images/menu-icon.svg" alt="menu icon"  class="w-14 ">
+                <button class="btn w-14" onclick="hideAndShow()"><i class="fa fa-bars"></i></button>
                 <div id="menu_dropdown" class="hidden absolute inset-y ">
                     <ul class="fixed text-center flex flex-col rounded-lg bg-green-light capitalize w-2/3 shadow-md">
                    <li class=" p-2 text-lg rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500"><a href="../docs/projects.html">projects</a></li>
