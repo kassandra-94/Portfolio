@@ -77,6 +77,11 @@ bottom: 5em;
 .z-1{
   z-index: 1;
 }
-.btn{
+#button{
   font-size:2em;
+  display: block;
+}
+#close {
+  font-size: 2em;
+  display:none;
 }
