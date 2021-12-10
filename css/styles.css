@@ -72,8 +72,8 @@
 }
 .inset-y{
   top: 5em;
-bottom: 90px;
+bottom: 5em;
 }
-.inset-x{
-  left: 1.5em;
+.z-1{
+  z-index: 1;
 }
