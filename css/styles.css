@@ -41,6 +41,12 @@
 .bg-hero-pattern{
   background-image: url('../assets/images/hero-pattern.svg');
 }
+.bg-teal-400{
+  background-color: rgba(45, 212, 191);
+}
+.bg-teal-500{
+  background-color: rgba(20, 184, 166);
+}
 .bg-pink-300 {
   background-color: rgba(249, 168, 212);
 }
@@ -86,5 +92,5 @@ bottom: 5em;
   display:none;
 }
 i.fa{
-  font-size: 3em;
+  font-size: 2em;
 }
