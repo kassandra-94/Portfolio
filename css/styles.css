@@ -77,11 +77,11 @@ bottom: 5em;
 .z-1{
   z-index: 1;
 }
-#button{
+#button.fa.fa-bars{
   font-size:2em;
   display: block;
 }
-#close {
+#close.fa.fa-close {
   font-size: 2em;
   display:none;
 }
