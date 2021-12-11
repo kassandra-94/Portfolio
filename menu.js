@@ -14,9 +14,11 @@ let closingButton = document.getElementById("close");
       };
 
       function backToMenu() {
-        if (menu.style.display === "block" && closingButton.style.display ==="block") {
+        if (menu.style.display === "block") {
           menu.style.display = "none";
           closingButton.style.display ="none";
           button.style.display= "block";
         }
       };
+
+     
