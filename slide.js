@@ -3,7 +3,7 @@ let slide = ["Empathy", "Approachability", "Helpfulness", "Approachability", "Pa
 let counter = 0;
 let singleWord = document.getElementById("carousel-words");
 
-setInterval(showSlide, 1000);
+setInterval(showSlide, 3000);
 
 function showSlide () {
     singleWord.innerHTML = slide[counter];

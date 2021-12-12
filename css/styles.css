@@ -76,12 +76,15 @@
 .hover\:text-green-light:hover {
   color: rgba(215, 253, 206);
 }
+.hover\:text-green-dark:hover {
+  color: rgba(22, 102, 3);
+}
 .inset{
   top: 3.3em;
  left: 0.01em;
 }
-.z-1{
-  z-index: 20;
+.z{
+  z-index: 2;
 }
 #button.fa.fa-bars{
   font-size:2em;
@@ -97,8 +100,8 @@ i.fa{
 
 @media screen and (max-width: 640px) {
 #div.skills{
-  position: absolute;
-  top: 10em;
+  position: relative;
+  top: -20em;
  
 }
 }
