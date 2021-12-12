@@ -1,5 +1,5 @@
 
-let slide = ["resilienza", "proattività", "creatività"];
+let slide = ["Empathy", "Approachability", "Helpfulness", "Approachability", "Patience", "Problem solving", "Accountability"];
 let counter = 0;
 let singleWord = document.getElementById("carousel-words");
 
@@ -12,7 +12,6 @@ function showSlide () {
         counter =0 ;
     }
 }
-
 
 
 

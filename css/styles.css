@@ -94,3 +94,16 @@
 i.fa{
   font-size: 2em;
 }
+
+@media screen and (max-width: 640px) {
+#div.skills{
+  position: absolute;
+  top: 10em;
+ 
+}
+}
+@media screen and (max-width: 1024px) {
+  #div_skills{
+    position: static;
+  }
+  }
