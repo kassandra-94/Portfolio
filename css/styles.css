@@ -38,6 +38,9 @@
 .text-green-light{
   color: rgba(215, 253, 206);
 }
+.text-pink-500{
+  color: rgba(236, 72, 153);
+}
 .bg-hero-pattern{
   background-image: url('../assets/images/hero-pattern.svg');
 }
@@ -61,6 +64,9 @@
 }
 .border-teal-500 {
   border-color: rgba(20, 184, 166);
+}
+.border-pink-300 {
+  border-color: rgba(249, 168, 212);
 }
 .hover\:bg-teal-400:hover {
   background-color: rgba(45, 212, 191);
