@@ -32,6 +32,9 @@
 .bg-green-light{
   background-color: rgba(215, 253, 206);
 }
+.bg-purple-light{
+  background-color: rgba(244, 206, 253, 1);
+}
 .text-green-dark{
   color: rgba(22, 102, 3);
 }
