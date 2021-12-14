@@ -35,6 +35,9 @@
 .bg-purple-light{
   background-color: rgba(244, 206, 253, 1);
 }
+.bg-orange{
+  background-color: rgba(253, 225, 206, 1);
+}
 .text-green-dark{
   color: rgba(22, 102, 3);
 }
@@ -119,3 +122,8 @@ i.fa{
     position: static;
   }
   }
+.set_menu_mobile{
+  position:fixed;
+  left: 19px;
+  right: 19px;
+}
