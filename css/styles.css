@@ -106,8 +106,8 @@ i.fa{
 
 @media screen and (max-width: 640px) {
 #div.skills{
-  position: relative;
-  top: -20em;
+  position: static;
+  top: 30em;
  
 }
 }

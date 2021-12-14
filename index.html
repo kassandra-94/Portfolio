@@ -20,15 +20,16 @@
 </head>
 <body >
     <!--main page-->
-    <div class="h-screen bg-green-light box-border text-center py-3 m-0 text-green-dark bg-hero-pattern overflow-y-scroll">
+    <div class="h-screen bg-green-light box-border text-center py-3 m-0 text-green-dark bg-hero-pattern overflow-scroll" >
+        <div>
         <!--header-->
          <!--nav begining-->
          <!--mobile version-->
-         <div class="visible relative md:hidden lg:hidden w-full"> 
+         <div class=" md:hidden lg:hidden w-full "> 
             <div class="fixed font-sans flex flex-row rounded-lg bg-green-light border-teal-500 m-8 px-3 w-4/5 z-50 shadow-md">
                 <button id="button" class="btn" onclick="hideAndShow()"><i class="fa fa-bars"></i></button>
                 <button id="close" class="btn hidden" onclick="backToMenu()" ><i class="fa fa-close"></i></button>
-                <div id="menu_dropdown" class="hidden absolute inset mx-auto">
+                <div id="menu_dropdown" class="hidden absolute inset mx-auto ">
                     <ul class="fixed text-center flex flex-col rounded-lg bg-green-light capitalize w-4/5 shadow-md ">
                    <li class="p-2 text-lg rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500 shadow-md"><a href="../docs/projects.html">projects</a></li>
                    <li class="p-2 text-lg rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500 shadow-md" ><a href="../docs/contact.html">contact</a></li>
@@ -40,18 +41,17 @@
         </div >
             </div>
             <!--end mobile version-->
-         <div class="invisible md:visible lg:visible "> 
+         <div class="z-60 hidden md:block lg:block "> 
             <ul class=" font-sans flex flex-row rounded-lg bg-green-light border-teal-500 justify-evenly  m-8 capitalize shadow-md">
                 <li class=" font-semibold p-2 lg:px-8 text-lg lg:text-xl rounded-2xl mr-auto">sara camerota</li>
                 <li class="p-2 lg:px-8 text-lg lg:text-xl rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500"><a href="/docs/projects.html">projects</a></li>
                 <li class="p-2 lg:px-8 text-lg lg:text-xl rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500" ><a href="/docs/contact.html">contact</a></li>
                 <li class="p-2 lg:px-8 text-lg lg:text-xl rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500" ><a href="/docs/about.html">about</a></li>
            </ul>   
-         </div>
-         
+         </div>      
     <!--nav ending-->
-    <div class="p-10 lg:py-20 lg:px-40 flex flex-col justify-center lg:flex-row">
-        <div class="">
+    <div class=" px-10 lg:py-20 lg:px-40 flex flex-col justify-center lg:flex-row">
+        <div class="pt-40 md:pt-0 lg:pt-0">
             <div class=" flex flex-row ">
             <p class="text-2xl lg:text-3xl font-sans font-semibold text-left lg:leading-relaxed prose"> 
                 <span role="img" aria-label="hello" class="text-4xl lg:text-7xl pr-3">👋</span>I am Sara. </p>
@@ -64,12 +64,13 @@
             </p>
                 </div>
                 <div>
-            <a href="../docs/about.html"><span role="img" aria-label=" photo of the author" style="background-image: url(../assets/images/picture.jpg)" class=" z pointer-events-none invisible md:visible lg:visible w-80 h-80 border-2 shadow-2xl border-green-dark rounded-full bg-cover text-4xl block mt-7"></span> </a>
+            <a href="../docs/about.html"><span role="img" aria-label=" photo of the author" style="background-image: url(../assets/images/picture.jpg)" class=" z-60 pointer-events-none hidden md:block lg:block w-80 h-80 border-2 shadow-2xl border-green-dark rounded-full bg-cover text-4xl block mt-7"></span> </a>
                 </div>
             </div>
          <!--header-->
          <!--hard and soft skill-->
-                <div id="div" class="skills px-10 lg:py-20 lg:px-40" >
+                    <div class="inline-block h-10 p-5 border-green-dark border-l-2"></div>
+                <div id="div" class="skills  px-10 lg:py-20 lg:px-40" >
          <hr class="border-1 border-green-dark w-2/3 md:hidden lg:hidden mx-auto py-2 lg:py-4 "> 
                     <div class=" flex flex-col align-middle lg:flex-row lg:justify-initial">            
                 <h3 class="text-3xl capitalize font-bold font-sans pb-4 lg:pt-4">hard skills<svg class="inline" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 172 172"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#166603"><path d="M49.3425,6.665c-1.62594,0 -3.10406,1.20938 -3.44,2.795c-0.33594,1.59906 0.55094,3.21156 2.0425,3.87c0.13438,0.05375 13.27625,5.97969 28.595,22.0375c6.86656,7.2025 14.09594,16.74313 9.245,21.5c-0.1075,0.12094 -0.68531,0.77938 -2.795,2.9025c-0.20156,0.20156 -0.26875,0.34938 -0.43,0.5375l-0.1075,0.1075l26.3375,26.3375l2.4725,-2.365c0.05375,-0.05375 0.06719,-0.16125 0.1075,-0.215l3.87,-3.87c0.17469,0.17469 1.12875,1.12875 4.8375,4.8375c1.3975,1.3975 1.06156,4.85094 0.645,5.6975c-1.29,2.58 -1.04812,5.29438 0.645,6.9875c0.67188,0.67188 11.9325,11.9325 11.9325,11.9325c1.85438,1.85438 4.32688,2.795 6.7725,2.795c2.44563,0 4.81063,-0.94062 6.665,-2.795l19.0275,-18.92c3.72219,-3.70875 3.70875,-9.82281 0,-13.545l-11.9325,-11.9325c-1.73344,-1.73344 -4.34031,-2.09625 -6.5575,-0.9675c-1.04812,0.52406 -4.71656,0.87344 -6.02,-0.43l-4.945,-4.945c1.12875,-1.59906 1.73344,-3.49375 1.72,-5.4825c0.01344,-2.56656 -0.98094,-4.97187 -2.795,-6.7725l-12.9,-12.9c-0.06719,-0.06719 -0.29562,-0.215 -0.43,-0.3225l-2.6875,-2.6875c-5.61687,-5.61687 -10.81719,-10.92469 -12.1475,-12.255c-11.395,-11.40844 -53.02437,-11.91906 -57.7275,-11.9325zM77.615,65.2525l-67.295,67.295c-3.70875,3.70875 -3.70875,9.71531 0,13.4375l12.9,12.9c1.85438,1.85438 4.32688,2.795 6.7725,2.795c2.44563,0 4.81063,-0.94062 6.665,-2.795l67.295,-67.1875z"></path></g></g></svg></h3>
@@ -82,16 +83,17 @@
                     </div>
             <hr class="border-1 border-green-dark w-2/3 md:w3/5 lg:hidden mx-auto py-2 ">             
                 <div class="flex flex-col lg:flex-row lg:justify-initial" >
-                    <h3 class="text-3xl capitalize font-bold font-sans pb-4  lg:pb-0">soft skills <svg class="inline" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="30" height="30" viewBox="0 0 172 172"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#166603"><path d="M97.96868,0c-19.00126,-0.00617 -37.72402,6.76858 -47.78593,21.58607c-6.82773,10.06603 -9.57886,21.53563 -9.43052,33.30214c0.02831,2.23471 2.47022,3.59764 4.36956,2.41991c21.18833,-13.13987 41.11922,-5.18556 65.81421,-1.0637c14.88299,2.48623 30.26948,3.44994 45.64944,3.00565c1.67433,-0.04837 2.94707,-1.51031 2.77401,-3.1764c-1.96777,-18.94108 -6.66927,-32.06543 -14.05201,-39.14898c-11.3936,-10.92918 -29.48909,-16.9189 -47.33876,-16.92469zM71.06342,55.75387c-5.4162,-0.00473 -10.63256,0.82469 -16.09753,2.98815c-4.53211,1.79328 -8.67378,4.35308 -12.3123,7.45988c-0.69689,0.59513 -1.0657,1.48946 -0.99512,2.40312l0.94543,12.22763c0.16195,2.09676 2.45522,3.31611 4.27788,2.26666c22.13101,-12.74109 41.19246,-5.26856 64.06121,-1.3975c15.57343,2.64317 31.3734,3.43466 46.70964,2.77611c1.52886,-0.06593 2.73723,-1.31126 2.75372,-2.84119c0.04837,-4.46905 -0.01212,-9.27303 -0.21134,-13.93234c-0.067,-1.57006 -1.39358,-2.78676 -2.96436,-2.73552c-44.92556,1.46034 -66.82367,-9.19809 -86.16723,-9.21498zM73.18032,81.7081c-4.94571,0.03255 -9.83148,0.75257 -15.03593,2.53748c-4.99934,1.71338 -9.79016,4.3663 -13.3907,7.08829c-0.78396,0.59263 -1.21768,1.54074 -1.14208,2.52068c0.54605,7.07997 0.26647,3.46922 1.34782,17.47474c0.12182,1.57651 -1.05746,2.9559 -2.63755,3.07772c-1.57651,0.12182 -2.9559,-1.05675 -3.07772,-2.63685c-1.3472,-17.45772 -1.15978,-15.01617 -1.58365,-20.47269c-0.10032,-1.29167 -1.05773,-2.34288 -2.32754,-2.59906c-7.60166,-1.53316 -15.64026,1.60929 -20.0871,8.33813c-0.03941,0.05733 -0.07552,0.11832 -0.10777,0.17565c-1.82374,3.23902 -2.95943,6.66099 -3.37864,10.17231c-1.52993,12.79125 7.0154,22.70175 10.66287,26.93325c2.79831,3.2469 6.06284,6.12158 9.68595,8.55227c1.2974,0.87031 3.05083,0.52723 3.94478,-0.75368c3.12544,-4.47909 8.30302,-7.3794 14.11569,-7.3794h94.94904c2.5217,0 4.95428,0.54725 7.16247,1.56195c1.74455,0.80187 3.76728,-0.31511 4.02526,-2.21767c1.40955,-10.38778 3.07421,-25.13781 3.77683,-40.8474c0.07488,-1.67433 -1.29843,-3.06147 -2.97276,-2.99375c-44.19347,1.78963 -64.52687,-8.65968 -83.92927,-8.53198zM50.16875,140.46971c-6.32396,0 -11.46554,5.14158 -11.46554,11.46554v8.59916c0,6.32396 5.14158,11.46554 11.46554,11.46554h94.94904c6.32038,0 11.46554,-5.14158 11.46554,-11.46554v-8.59916c0,-6.32397 -5.14516,-11.46554 -11.46554,-11.46554z"></path></g></g></svg> </h3>                    
+                    <h3 class="text-3xl capitalize font-bold font-sans pb-4 lg:pb-0">soft skills <svg class="inline" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="30" height="30" viewBox="0 0 172 172"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#166603"><path d="M97.96868,0c-19.00126,-0.00617 -37.72402,6.76858 -47.78593,21.58607c-6.82773,10.06603 -9.57886,21.53563 -9.43052,33.30214c0.02831,2.23471 2.47022,3.59764 4.36956,2.41991c21.18833,-13.13987 41.11922,-5.18556 65.81421,-1.0637c14.88299,2.48623 30.26948,3.44994 45.64944,3.00565c1.67433,-0.04837 2.94707,-1.51031 2.77401,-3.1764c-1.96777,-18.94108 -6.66927,-32.06543 -14.05201,-39.14898c-11.3936,-10.92918 -29.48909,-16.9189 -47.33876,-16.92469zM71.06342,55.75387c-5.4162,-0.00473 -10.63256,0.82469 -16.09753,2.98815c-4.53211,1.79328 -8.67378,4.35308 -12.3123,7.45988c-0.69689,0.59513 -1.0657,1.48946 -0.99512,2.40312l0.94543,12.22763c0.16195,2.09676 2.45522,3.31611 4.27788,2.26666c22.13101,-12.74109 41.19246,-5.26856 64.06121,-1.3975c15.57343,2.64317 31.3734,3.43466 46.70964,2.77611c1.52886,-0.06593 2.73723,-1.31126 2.75372,-2.84119c0.04837,-4.46905 -0.01212,-9.27303 -0.21134,-13.93234c-0.067,-1.57006 -1.39358,-2.78676 -2.96436,-2.73552c-44.92556,1.46034 -66.82367,-9.19809 -86.16723,-9.21498zM73.18032,81.7081c-4.94571,0.03255 -9.83148,0.75257 -15.03593,2.53748c-4.99934,1.71338 -9.79016,4.3663 -13.3907,7.08829c-0.78396,0.59263 -1.21768,1.54074 -1.14208,2.52068c0.54605,7.07997 0.26647,3.46922 1.34782,17.47474c0.12182,1.57651 -1.05746,2.9559 -2.63755,3.07772c-1.57651,0.12182 -2.9559,-1.05675 -3.07772,-2.63685c-1.3472,-17.45772 -1.15978,-15.01617 -1.58365,-20.47269c-0.10032,-1.29167 -1.05773,-2.34288 -2.32754,-2.59906c-7.60166,-1.53316 -15.64026,1.60929 -20.0871,8.33813c-0.03941,0.05733 -0.07552,0.11832 -0.10777,0.17565c-1.82374,3.23902 -2.95943,6.66099 -3.37864,10.17231c-1.52993,12.79125 7.0154,22.70175 10.66287,26.93325c2.79831,3.2469 6.06284,6.12158 9.68595,8.55227c1.2974,0.87031 3.05083,0.52723 3.94478,-0.75368c3.12544,-4.47909 8.30302,-7.3794 14.11569,-7.3794h94.94904c2.5217,0 4.95428,0.54725 7.16247,1.56195c1.74455,0.80187 3.76728,-0.31511 4.02526,-2.21767c1.40955,-10.38778 3.07421,-25.13781 3.77683,-40.8474c0.07488,-1.67433 -1.29843,-3.06147 -2.97276,-2.99375c-44.19347,1.78963 -64.52687,-8.65968 -83.92927,-8.53198zM50.16875,140.46971c-6.32396,0 -11.46554,5.14158 -11.46554,11.46554v8.59916c0,6.32396 5.14158,11.46554 11.46554,11.46554h94.94904c6.32038,0 11.46554,-5.14158 11.46554,-11.46554v-8.59916c0,-6.32397 -5.14516,-11.46554 -11.46554,-11.46554z"></path></g></g></svg> </h3>                    
                         <div>
                     <h3 id="carousel-words" class="text-2xl px-8 py-4  capitalize lg:py-1 uppercase font-sembibold text-pink-500 font-sans "></h3>
                 </div>
                 </div>
                 <hr class="border-1 border-green-dark w-2/3 md:w3/5 lg:hidden mx-auto py-2 ">             
-                <div class="py-10">
+                <div class="pt-10">
                     <a href="../docs/about.html"><span href="..docs/about.html" target="_blank" role="img" aria-label=" photo of the author" style="background-image: url(../assets/images/picture.jpg)" class=" pointer-events-none lg:hidden md:hidden w-40 h-40 border-2 shadow-2xl border-green-dark rounded-full bg-cover text-4xl block mx-auto pb-10"></span></a>
                     </div>
-                     <!--footer -->
+        </div>    
+         <!--footer -->
       <hr class="border-1 border-green-dark w-2/3 mx-auto p-2"> 
       <div class="flex flex-row justify-center pb-2 ">
           <p class="font-serif text-lg font-semibold  text-green-dark pr-3 lg:pr-5">
@@ -103,12 +105,9 @@
      </div>
      <hr class="border-1 border-green-dark w-2/3 mx-auto p-2"> 
      <!--end of footer -->
-        </div>
-        
-       
+    </div>
     </div>
     <script src="menu.js"></script>
     <script src="slide.js"></script>
-
 </body>
 </html>
