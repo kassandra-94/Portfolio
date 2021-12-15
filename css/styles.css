@@ -38,6 +38,9 @@
 .bg-orange{
   background-color: rgba(253, 225, 206, 1);
 }
+.bg-blue-light{
+  background-color: rgba(206, 224, 253, 1);
+}
 .text-green-dark{
   color: rgba(22, 102, 3);
 }
