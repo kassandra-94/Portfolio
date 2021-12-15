@@ -25,11 +25,11 @@
         <div>
         <!--header-->
          <!--nav begining-->
-         <!--mobile version-->
+         <!-- menu mobile-->
          <div class=" md:hidden lg:hidden  "> 
             <div class=" fixed set_menu_mobile font-sans flex flex-row rounded-lg bg-green-light border-teal-500 my-8 px-3 w-10/12 z-50 shadow-md">
                 <button id="button" class="btn" onclick="hideAndShow()"><i class="fa fa-bars"></i></button>
-                <button id="close" class="btn hidden" onclick="backToMenu()" ><i class="fa fa-close"></i></button>
+                <button id="close" class="btn hidden" onclick="backToMenu()"><i class="fa fa-close"></i></button>
                 <div id="menu_dropdown" class="hidden absolute inset  ">
                     <ul class="fixed text-center flex flex-col rounded-lg bg-green-light capitalize w-10/12 shadow-md ">
                    <li class="p-2 text-lg rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500 shadow-md"><a href="../docs/projects.html">projects</a></li>
@@ -41,15 +41,17 @@
             <h3 class="capitalize font-semibold p-4 text-xl rounded-2xl ml-8 ">sara camerota</h3>
         </div >
             </div>
-            <!--end mobile version-->
+            <!--end menu mobile -->
+            <!--menu tablet e desktop -->
          <div class="z-60 hidden md:block lg:block "> 
-            <ul class=" font-sans flex flex-row rounded-lg bg-green-light border-teal-500 justify-evenly p-4 m-8 capitalize shadow-md">
+            <ul class=" font-sans flex flex-row rounded-lg bg-green-light border-teal-500 justify-evenly p-2 m-8 capitalize shadow-md">
                 <li class=" font-semibold md:p-4 lg:px-8 text-lg lg:text-xl rounded-2xl mr-auto">sara camerota</li>
-                <li class="md:p-4  lg:px-8 text-lg lg:text-xl rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500"><a href="/docs/projects.html">projects</a></li>
+                <li class="md:p-4 lg:px-8 text-lg lg:text-xl rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500"><a href="/docs/projects.html">projects</a></li>
                 <li class="md:p-4 lg:px-8 text-lg lg:text-xl rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500" ><a href="/docs/contact.html">contact</a></li>
-                <li class="md:p-4  lg:px-8 text-lg lg:text-xl rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500" ><a href="/docs/about.html">about</a></li>
+                <li class="md:p-4 lg:px-8 text-lg lg:text-xl rounded-2xl hover:text-green-light hover:bg-teal-400 active:bg-teal-500" ><a href="/docs/about.html">about</a></li>
            </ul>   
-         </div>      
+         </div>     
+          <!-- end menu tablet e desktop --> 
     <!--nav ending-->
     <div class=" px-10  md:py-15 lg:py-20 md:px-30 lg:px-40 flex flex-col justify-center md:flex-row lg:flex-row">
         <div class="pt-40 md:pt-0 lg:pt-0">
@@ -70,11 +72,11 @@
             </div>
          <!--header-->
          <!--section skills-->
-       <div id="div" class="skills py-10 px-10 lg:py-20 lg:px-40 bg-purple-light rounded-xl mx-5 md:mx-0 lg:mx-0" >
+       <div id="div" class="skills py-10 px-10 lg:py-15 lg:px-40 bg-purple-light rounded-xl mx-5 md:mx-0 lg:mx-0" >
                          <!--hard skills-->
                     <div class=" py-5 flex flex-col align-middle md:flex-row md:justify-initial lg:flex-row lg:justify-initial">            
                 <h3 class="text-3xl capitalize font-bold font-sans pb-4 md:pt-4 lg:pt-4">hard skills<svg class="inline" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 172 172"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#166603"><path d="M49.3425,6.665c-1.62594,0 -3.10406,1.20938 -3.44,2.795c-0.33594,1.59906 0.55094,3.21156 2.0425,3.87c0.13438,0.05375 13.27625,5.97969 28.595,22.0375c6.86656,7.2025 14.09594,16.74313 9.245,21.5c-0.1075,0.12094 -0.68531,0.77938 -2.795,2.9025c-0.20156,0.20156 -0.26875,0.34938 -0.43,0.5375l-0.1075,0.1075l26.3375,26.3375l2.4725,-2.365c0.05375,-0.05375 0.06719,-0.16125 0.1075,-0.215l3.87,-3.87c0.17469,0.17469 1.12875,1.12875 4.8375,4.8375c1.3975,1.3975 1.06156,4.85094 0.645,5.6975c-1.29,2.58 -1.04812,5.29438 0.645,6.9875c0.67188,0.67188 11.9325,11.9325 11.9325,11.9325c1.85438,1.85438 4.32688,2.795 6.7725,2.795c2.44563,0 4.81063,-0.94062 6.665,-2.795l19.0275,-18.92c3.72219,-3.70875 3.70875,-9.82281 0,-13.545l-11.9325,-11.9325c-1.73344,-1.73344 -4.34031,-2.09625 -6.5575,-0.9675c-1.04812,0.52406 -4.71656,0.87344 -6.02,-0.43l-4.945,-4.945c1.12875,-1.59906 1.73344,-3.49375 1.72,-5.4825c0.01344,-2.56656 -0.98094,-4.97187 -2.795,-6.7725l-12.9,-12.9c-0.06719,-0.06719 -0.29562,-0.215 -0.43,-0.3225l-2.6875,-2.6875c-5.61687,-5.61687 -10.81719,-10.92469 -12.1475,-12.255c-11.395,-11.40844 -53.02437,-11.91906 -57.7275,-11.9325zM77.615,65.2525l-67.295,67.295c-3.70875,3.70875 -3.70875,9.71531 0,13.4375l12.9,12.9c1.85438,1.85438 4.32688,2.795 6.7725,2.795c2.44563,0 4.81063,-0.94062 6.665,-2.795l67.295,-67.1875z"></path></g></g></svg></h3>
-                <div class="grid grid-cols-2 lg:flex md:flex md:flex-row lg:flex-row lg:justify-around py-5 px-5 lg:pt-0 lg:pb-10 lg:pl-10">
+                <div class="grid grid-cols-2 lg:flex md:flex md:flex-row lg:flex-row lg:justify-around py-5 px-5 lg:pt-0 lg:pl-10">
                         <span role="img" class="h-30 w-30 bg-cover md:block lg:block self-center lg:pb-0 md:pb-0 pb-1"> <svg xmlns="http://www.w3.org/2000/svg" width="120" height="60"><path d="M6.3 21.475H12v5.63h5.213v-5.63h5.7v17.05h-5.7v-5.7H12v5.7H6.3v-17.05zm24.107 5.655H25.38v-5.654h15.736v5.654h-5.02v11.397h-5.7V27.13zm13.207-5.655h5.943l3.656 6 3.652-6H62.8v17.05h-5.676v-8.452l-3.92 6.063h-.098L49.2 30.074v8.452h-5.576zm22.03 0h5.7V32.9h8.015v5.636H65.645z"/><path d="M82.07 12.06h31.637l-2.882 32.288L97.87 47.94l-12.92-3.587z" fill="#e44d26"/><path d="M108.36 42.293l2.463-27.592H97.9v30.494z" fill="#f16529"/><path d="M92.65 26.678l-.362-4.056H97.9v-3.96h-9.93l1.068 11.977H97.9v-3.96zm-3.446 5.942l.555 6.22 8.113 2.252.018-.005v-4.12l-.017.005-4.4-1.2-.282-3.16h-2.143z" fill="#ebebeb"/><path d="M106.986 27.74l.097-1.064h-9.206v3.96h4.877l-.46 5.137-4.417 1.192v4.12l8.12-2.25.06-.67zm-9.1-5.118h9.567l.355-3.97h-9.922v3.95z" fill="#fff"/></svg></span>
                         <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" class=" w-30 h-30 md:block lg:block lg:pb-0 md:pb-0 pb-1" />
                         <img src="https://img.icons8.com/color/48/000000/css3.png" class="w-30 h-30 md:block lg:block lg:pb-0 md:pb-0 pl-14 lg:pl-0 pb-2">
@@ -104,7 +106,7 @@
             </div>
             <!--end about section--> 
          <!--footer -->
-      <hr class="border-1 border-green-dark w-10/12 mx-auto p-2"> 
+      <hr class="border-1 border-green-dark w-10/12 mx-auto p-2 mt-2 lg:mt-12"> 
       <div class="flex flex-col md:flex-row lg:flex-row justify-center pb-2 ">
           <p class="font-serif text-lg font-semibold  text-green-dark pr-3 lg:pr-5">
              Got questions? Just drop me a line
